@@ -36,3 +36,25 @@ button {
 button:hover {
     background-color: #f0f0f0;
 }
+
+@media (max-width: 480px) {
+    body {
+        gap: 15px;         
+        padding: 15px;     
+    }
+
+    h1 {
+        font-size: 1.8rem; 
+        text-align: center;
+    }
+
+    img {
+        max-width: 90% !important; 
+        height: auto;              
+    }
+
+    button {
+        width: 80%;        
+        padding: 12px;
+    }
+}
